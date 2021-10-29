@@ -99,9 +99,9 @@ Upon clicking the button, MetaMask should pop up asking for approval of the tran
 Under “Tokens Transferred”, you should see three different transactions.
 
 
-    The red arrow highlights the transfer of 1 DAI from LendingPool to our contract.
-    The orange arrow indicates the payback of 1 DAI along with the fees back to the Landing pool.
-    The blue arrow shows the interest generated DAI which has its separate utility.
+    The First one highlights the transfer of 1 DAI from LendingPool to our contract.
+    The Second one indicates the payback of 1 DAI along with the fees back to the Landing pool.
+    The Third arrow shows the interest generated DAI which has its separate utility.
 
 Conclusion
 We were successfully able to write the smart contract for a Flash Loan! We were able to borrow DAI from the pool, pay the Flash Loan fee, and then repay the borrowed amount all in a single transaction. You just borrowed money with no collateral!
