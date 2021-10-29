@@ -17,9 +17,12 @@ Setup MetaMask and inject web3 in remix compiler
 # Now to break down the code line by line.
 
 1 Importing dependencies for the smart contract
-    2 The FlashLoanV1 contract is inheriting from the FlashLoanReceiverBaseV1 contract.
-    3 We passed the address of one of the Lending Pool Providers of Aave. In this case, we are providing the address of DAI Lending Pool. 
-    4 We have defined a function called flashLoan. It takes the address of the asset we want to flash loan. In this case the asset is DAI.
+2 The FlashLoanV1 contract is inheriting from the FlashLoanReceiverBaseV1 contract.
+3 We passed the address of one of the Lending Pool Providers of Aave. In this case, we are providing the address of DAI Lending Pool. 
+
+
+
+4 We have defined a function called flashLoan. It takes the address of the asset we want to flash loan. In this case the asset is DAI.
     5 We don't have any need of data for the flash loan, so we are passing an empty string.
     6 We are defining the number of DAI(in terms of wei which is 10^18) we want to loan.
     7 We initialize the LendingPool interface which is ILendingPoolV1 provided by Aave so that we can call the flashLoan function.
