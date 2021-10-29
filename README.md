@@ -103,8 +103,5 @@ Under “Tokens Transferred”, you should see three different transactions.
     The Second one indicates the payback of 1 DAI along with the fees back to the Landing pool.
     The Third arrow shows the interest generated DAI which has its separate utility.
 
-Conclusion
-We were successfully able to write the smart contract for a Flash Loan! We were able to borrow DAI from the pool, pay the Flash Loan fee, and then repay the borrowed amount all in a single transaction. You just borrowed money with no collateral!
 
-Subscribe to our newsletter for more articles and guides on Ethereum. If you have any feedback, feel free to reach out to us via Twitter. You can always chat with us on our Discord community server, featuring some of the coolest developers you’ll ever meet :)
 
