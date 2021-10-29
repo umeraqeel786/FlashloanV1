@@ -16,9 +16,7 @@ Setup MetaMask and inject web3 in remix compiler
 
 # Now to break down the code line by line.
 
-# First, we have to define the solidity compiler version. In this case, it's 0.6.6.
-
-    1 Importing dependencies for the smart contract
+1 Importing dependencies for the smart contract
     2 The FlashLoanV1 contract is inheriting from the FlashLoanReceiverBaseV1 contract.
     3 We passed the address of one of the Lending Pool Providers of Aave. In this case, we are providing the address of DAI Lending Pool. 
     4 We have defined a function called flashLoan. It takes the address of the asset we want to flash loan. In this case the asset is DAI.
